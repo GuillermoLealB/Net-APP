@@ -1,0 +1,38 @@
+{
+  "Support": {
+    "DistributionList": [
+      "Guillermo_Leal@jabil.com"
+    ]
+  },
+  "Plugins": [
+    "Cadence.Sftp.dll"
+  ],
+  "Folders": [
+    {
+      "Name": "Prueba",
+      "Event": {
+        "EventType": 0,
+        "ActionType": 3,
+        "Attempts": 3,
+        "DelayInSeconds": 60,
+        "DistributionList": [
+          "joel_castillejos3@jabil.com"
+        ]
+      },
+      "Origin": {
+        "Path": "C:\\Users\\3579179\\Documents\\RIC\\Tar",
+        "Filter": "*.TAR"
+      },
+      "Destination": {
+        "Path": "C:\\Documentos\\RIC\\Result\\Pass"
+        //"FolderType": 0
+        //"Credentials": {
+        //  "Domain": "10.8.116.38",
+        //  "User": "demoman",
+        //  "Password": "demoman",
+        //  "Port": 22
+        //}
+      }
+    }
+  ]
+}

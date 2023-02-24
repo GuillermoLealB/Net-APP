@@ -1,0 +1,22 @@
+{
+  "Folders": [
+    {
+      "Name": "JabilTest",
+      "Event": {
+        "EventType": 1,
+        "ActionType": 2,
+        "DistributionList": [
+          "pedro_luna@jabil.com"
+        ]
+      },
+      "Origin": {
+        "Path": "//10.49.127.11/Logs/OST/TARS_Backup", //10.49.127.11/Logs/OST/TARS_Backup
+        "Filter": "*.txt"
+      },
+      "Destination": {
+        "Path": "D:\\Documents\\Personal",
+        "Prefix": "HOLA_"
+      }
+    }
+  ]
+}

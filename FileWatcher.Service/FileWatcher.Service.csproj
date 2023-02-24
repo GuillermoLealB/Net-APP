@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-FileWatcher.Service-5AD9D517-BA69-4BD2-A96F-72311BB49698</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JabilCore.Utilities" Version="1.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="3.1.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FileWatcher.Models\FileWatcher.Models.csproj" />
+    <ProjectReference Include="..\FileWatcher.Notification\FileWatcher.Notification.csproj" />
+  </ItemGroup>
+</Project>
